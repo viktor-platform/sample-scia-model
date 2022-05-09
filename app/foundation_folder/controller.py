@@ -21,5 +21,3 @@ class FoundationFolderController(ViktorController):
     label = 'Foundation Folder'
     children = ['Foundation']
     show_children_as = 'Table'  # or 'Cards'
-
-    viktor_convert_entity_field = True
