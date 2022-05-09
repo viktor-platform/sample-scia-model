@@ -38,8 +38,6 @@ class FoundationController(ViktorController):
     label = 'Foundation'
     parametrization = Parametrization
 
-    viktor_convert_entity_field = True
-
     @GeometryView("3D", duration_guess=1)
     def visualize(self, params, **kwargs):
         scia_model = self.create_scia_model(params)
